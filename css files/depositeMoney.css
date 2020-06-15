@@ -1,0 +1,144 @@
+
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+header {
+   background-color: #4f4842;
+}
+.headerTitle {
+   margin-left: 10%;
+   padding-top: 20px;
+}
+header h1 {
+   color: white;
+}
+header span {
+   color: #fed502;
+}
+.headerNavigation {
+   background-color: #fed502;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 30px;
+}
+.menu {
+   display: flex;
+   flex-wrap: nowrap;
+   
+}
+.items {
+   list-style: none;
+   display: block;
+   width: auto;
+   padding: 10px;
+}
+.item-link {
+   text-decoration: none;
+   color: black;
+}
+main{
+    background-image: linear-gradient(#bdc3c7,#fff)
+}
+.mainHeader {
+   text-align: center;
+   padding-top: 15px;
+}
+.mainBody {
+   margin-top: 30px;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.customerForm li {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding-top: 10px;
+}
+.customerForm > li > label {
+   flex: 0 0 200px;
+   max-width: 200px;
+}
+
+.customerForm > li > label + * {
+   flex: 1 0 150px;
+}
+button {
+   background-color: #4f4842;
+   color: #fed502;
+   border: 0px;
+}
+#submit {
+   padding: 5px 30px;
+   margin-right: 10px;
+}
+#reset {
+   padding: 5px 30px;
+}
+#update {
+   padding: 10px 20px;
+   margin: auto;
+}
+footer {
+   margin-top: 30px;
+   background-color: #4f4842;
+   color: whitesmoke;
+}
+/* Yellow Line */
+.yellowLine {
+   width: 100%;
+   height: 3px;
+   background-color: #fed502;
+}
+/* Yellow line */
+.footerContainer {
+   display: flex;
+   padding: 2rem 10% 3rem;
+   justify-content: space-between;
+}
+.footerContainer h2 {
+   color: #fed502;
+}
+.aboutUs {
+   flex-basis: 40%;
+   text-align: justify;
+}
+.services {
+   flex-basis: 20%;
+}
+.contactUs {
+   flex-basis: 31%;
+}
+footer li {
+   list-style: none;
+}
+footer a {
+   text-decoration: none;
+   color: whitesmoke;
+}
+.aboutUsContent,
+.servicesContent,
+.contactUsContent {
+    padding-top: 1rem;
+}
+.footerBottom{
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #201d1a;
+}
+.footerBottom span{
+    color: #fed502;
+}
+.required
+{
+    color: #FF0000;
+}
+form ul li:nth-last-child(1){
+    justify-content: center;
+}

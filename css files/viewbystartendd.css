@@ -1,0 +1,38 @@
+.mainBody{
+    width: 100%;
+    padding: 1rem 15%;
+}
+table{
+	margin-left: 300px;
+    width: 40%;
+    border-collapse: collapse;
+	
+}
+td,th{
+	
+    border: 1px solid black;
+    text-align: center;
+   
+	
+}
+th{
+	background-color: #fed502;
+	
+	}
+	
+	table tr td {
+  padding:0;  
+}
+table tr td:nth-child(1) {
+  width: 20px;
+}
+table tr td:nth-child(2) {
+  width: 20px;
+}
+table tr td:nth-child(3) {
+  width: 20px;
+}
+table tr td:nth-child(4) {
+  width: 20px;
+}
+

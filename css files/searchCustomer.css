@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.searchCustomerForm li{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.searchCustomerForm li{
+    list-style: none;
+}
+.searchCustomerForm li>label{
+    flex: 1 0 180px;
+}
+.searchCustomerForm li>label+*{
+    flex: 1 0 180px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4f4842;
+    color: #fed502;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>View By Transaction</title>
+      <link rel="stylesheet" href="./css/viewByTransactionn.css" />
+   </head>
+   <body>
+      <header>
+         <div class="headerTitle">
+            <h1><span>FedChoice</span> Bank</h1>
+         </div>
+         <div class="navbar">
+		 
+		    <a href="#">Home</a>
+                  <div class="dropdown">
+					<button class="dropbtn" onclick="myFunction()">Customer Management
+					 <i class="arrow down"></i>
+					</button>
+                   <div class="dropdown-content" id="myDropdown">
+					
+
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+    				</div>
+	
+				  
+				  
+				  
+               </div>
+			   
+			   <div class="dropdown">
+					<button class="dropbtn" onclick="myFunction()">Account Management
+					 <i class="arrow down"></i>
+					</button>
+                   <div class="dropdown-content" id="myDropdown">
+					
+
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+    				</div>
+	
+				  
+				  
+				  
+               </div>
+			   
+			   <div class="dropdown">
+					<button class="dropbtn" onclick="myFunction()">Status Details
+					 <i class="arrow down"></i>
+					</button>
+                   <div class="dropdown-content" id="myDropdown">
+					
+
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+    				</div>
+	
+				  
+				  
+				  
+               </div>
+			   
+			   <div class="dropdown">
+					<button class="dropbtn" onclick="myFunction()">Account Operations
+					 <i class="arrow down"></i>
+					</button>
+                   <div class="dropdown-content" id="myDropdown">
+					
+
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+    				</div>
+	
+				  
+				  
+				  
+               </div>
+               
+               
+      </header>
+      <main>
+         <div class="mainHeader">
+            <h2>Account Statement</h2>
+         </div>
+         <div class="mainBody">
+            <form>
+               <ul class="customerForm">
+                  <li>
+                     <label for="accountID">Account ID *</label>
+                     <input type="text" name="accountID" id="accountID" placeholder="111011000" required />
+                  </li>
+				  <li>
+					 <input type="radio" id="lastNumberOfTransactions" name="val" value="lastNumberOfTransactions" checked>
+					 <label for="lastNumberOfTransactions">Last Number of Transactions</label>
+					 </li>
+					 <li>
+					 <input type="radio" id="startEndDates" name="val" value="startEndDates" checked>
+					 <label for="startEndDates">Start-End Dates</label>
+				  </li>
+                  <li>
+				       <label for="noOfTransactions">Number of Transactions</label>
+						<input type="number" name="noOfTransactions" min="1" max="100">
+				  </li>
+				  
+                  <li>
+                     <button type="submit" id="submit">Submit</button>
+                     
+                  </li>
+               </ul>
+            </form>
+            
+         </div>
+      </main>
+      <footer>
+         <div class="footerContainer">
+            <div class="aboutUs">
+               <div class="aboutUsHeading">
+                  <h2>About Us</h2>
+               </div>
+               <div class="aboutUsContent">
+                  <p>
+                     FedChoice Bank was founded on 14th June 2016 with the
+                     objective of providing with the detail services based in
+                     Retail Banking operation.The Retail Internet Banking of
+                     FedChoice offers a plethora of products and services, to
+                     cater its customer by providing certain animus services
+                     with an easy volving offers and ways to do the required job
+                     without hurdling the process.
+                  </p>
+               </div>
+            </div>
+            <div class="services">
+               <div class="servicesHeading">
+                  <h2>Services</h2>
+               </div>
+               <div class="servicesContent">
+                  <ul>
+                     <li><a href="#">Retail and Consumer Banking</a></li>
+                     <li><a href="#">Personal Internet Banking</a></li>
+                     <li><a href="#">Corporate Internet Banking</a></li>
+                     <li><a href="#">Debit and Credit Cards</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="contactUs">
+               <div class="contactUsHeading">
+                  <h2>Contact Us</h2>
+               </div>
+               <div class="contactUsContent">
+                  <ul>
+                     <li>
+                        <label for="email">Email:</label
+                        ><a id="email" href="customer.service@fedchoice.com"
+                           >customer.service@fedchoice.com</a
+                        >
+                     </li>
+                     <li>
+                        <label for="contactNo">Contact No:</label
+                        ><a href="tel:022-42406778"
+                           >022-42406778,022-54567890</a
+                        >
+                     </li>
+                     <li>
+                        <p>
+                           Address:Corporate Office,Madame Cama Road,<br />
+                           Nariman Point,Mumbai,Maharashtra 400021
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
